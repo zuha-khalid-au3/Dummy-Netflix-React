@@ -1,4 +1,5 @@
 import Featured from "../components/featured/Featured";
+import List from "../components/list/List";
 import Navbar from "../components/navbar/Navbar";
 import "./Home.scss";
 const Home = () => {
@@ -10,7 +11,8 @@ const Home = () => {
         alt=""
         width="100%"
       />
-      <Featured />
+      <Featured type="movie" />
+      <List />
     </div>
   );
 };
